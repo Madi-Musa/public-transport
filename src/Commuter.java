@@ -1,13 +1,13 @@
 public class Commuter {
-    private String name;
+    private string name;
     private double balance;
 
-    public Commuter(String name, double balance) {
+    public Commuter(string name, double balance) {
         this.name = name;
         this.balance = balance;
     }
 
-    public String getName() {
+    public string getName() {
         return name;
     }
 
