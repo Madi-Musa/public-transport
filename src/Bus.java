@@ -1,9 +1,9 @@
 public class Bus {
     private int number;
-    private String route;
+    private string route;
     private int capacity;
 
-    public Bus(int number, String route, int capacity) {
+    public Bus(int number, string route, int capacity) {
         this.number = number;
         this.route = route;
         this.capacity = capacity;
@@ -17,11 +17,11 @@ public class Bus {
         this.number = number;
     }
 
-    public String getRoute() {
+    public string getRoute() {
         return route;
     }
 
-    public void setRoute(String route) {
+    public void setRoute(string route) {
         this.route = route;
     }
 
