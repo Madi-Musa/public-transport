@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(string[] args) {
 
         Bus bus1 = new Bus(32, "Abay - Mega", 50);
         Bus bus2 = new Bus(10, "Center - Airport", 30);
