@@ -1,25 +1,25 @@
 public class TransportService {
-    private string name;
-    private string city;
+    private String name;
+    private String city;
 
-    public TransportService(string name, string city) {
+    public TransportService(String name, String city) {
         this.name = name;
         this.city = city;
     }
 
-    public string getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(string name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public string getCity() {
+    public String getCity() {
         return city;
     }
 
-    public void setCity(string city) {
+    public void setCity(String city) {
         this.city = city;
     }
 
